@@ -44,4 +44,10 @@ console.log(students);
 students.delete("Vinod") 
 console.log(students);
 console.log(students.has("sindhu"));
-  
+for(const names of students.entries()){
+    console.log(names)
+}
+const numbers = [1,2,4,1,6,8,2,5,9,2,0,9,7,6,3,4,6,7,8,4,2,1,5,8,9,0,2,4,5,3,2,6,8,9,6];
+
+const numbers1 = new Set(numbers);
+console.log(numbers1); 
