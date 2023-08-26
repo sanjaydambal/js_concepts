@@ -5,6 +5,9 @@ const items = new Map([
 ]);
 items.set("mouse",658);
 console.log(items.get("mouse"));
+items.delete("laptop");
+console.log(items)
+console.log(items.has("laptop"))
 
 let recipeMap = new Map([
     ['cucumber', 500],
