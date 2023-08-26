@@ -23,3 +23,20 @@ let recipeMap = new Map([
     for (let entry of recipeMap) { 
     console.log(entry); 
   }
+const players = new Map([['key','value'],['small','medium'],['fruit','another']]);
+
+for(const player of players.values()){
+  console.log(player);
+}
+for(const player of players.keys()){
+    console.log(player);
+  }
+  for(const player of players.entries()){
+    console.log(player);
+  }
+  for(const player of players.clear()){
+    console.log(player);
+  }
+  
+  
+  
