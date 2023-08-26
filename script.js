@@ -34,9 +34,14 @@ for(const player of players.keys()){
   for(const player of players.entries()){
     console.log(player);
   }
-  for(const player of players.clear()){
-    console.log(player);
-  }
+ 
   
-  
+//  set
+const students = new Set(["Praveen","Vinod","sudhir","praveen"])
+console.log(students);
+students.add("sindhu");
+console.log(students);
+students.delete("Vinod") 
+console.log(students);
+console.log(students.has("sindhu"));
   
